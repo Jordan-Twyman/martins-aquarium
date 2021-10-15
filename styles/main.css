@@ -1,0 +1,80 @@
+body{
+    background-color: sandybrown;
+}
+
+
+.main-list {
+    border: 1px solid black;
+    margin: 1em ;
+    padding: 1em;
+    width: 60%;
+    display: flex;
+    align-content: center;
+}
+.aside {
+    border: 1px solid black;
+    padding: 1em;
+    width: 50%;
+    background-color: oldlace;
+    
+
+
+}
+.fish-list {
+    display: flex;
+    margin: 1em;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+}
+
+#quote-list {
+    display: flex;
+    margin: 1em;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+}
+
+.tip-list {
+    
+    margin: 1em;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 15%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    background-position: center;
+    background-size: cover;
+
+}
+
+section > .fish-card {
+border:  1px solid black;
+width: 200px;;
+height: auto;
+padding-bottom: 10%;
+object-position: center;
+flex-wrap: wrap;
+}

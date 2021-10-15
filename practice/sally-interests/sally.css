@@ -1,0 +1,42 @@
+.pageHeader {
+
+    text-align: center;
+  
+        }
+  .list {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+  }  
+   
+  .shop {
+      flex-basis: 20em;
+      border: 1px dotted black;
+      
+  
+  }
+
+  .basic-info{
+      color:blue;
+      font-size: 20px; 
+      text-align:center;
+  }
+
+  img{
+      width: 20%;
+      height: auto;
+  }
+
+  .committee-list{
+      display:flex;
+      justify-content: space-evenly;
+      padding:5em;
+      margin:auto;
+  }
+
+  .law{
+      display:flex;
+      border: 1px dotted black 
+  }
+
+ 
